@@ -77,7 +77,14 @@ const TOPICS = [
   },
   {
     title: "7. String",
-    problems: [],
+    problems: [
+      {
+        url: "https://codeforces.com/contest/763/problem/D",
+        title: "CODEFORCES - 763D",
+        note: "hashing",
+        difficulty: 3,
+      },
+    ],
   },
 ];
 
