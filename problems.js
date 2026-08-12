@@ -52,6 +52,12 @@ const TOPICS = [
         note: "implicit graph",
         difficulty: 3,
       },
+      {
+        url: "https://atcoder.jp/contests/abc448/tasks/abc448_d",
+        title: "ATCODER - ABC448D",
+        note: "traversal",
+        difficulty: 1,
+      },
     ],
   },
   {
