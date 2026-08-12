@@ -83,11 +83,15 @@ function renderTopics(topics, root) {
       link.className = "text-blue-600";
       link.href = problem.url;
 
-      const note = problem.note ? " (" + problem.note + ")" : "";
-      const stars = "*".repeat(problem.difficulty);
-      link.textContent = problem.title + note + " " + stars;
+      const note = document.createElement("span");
+      note.className = "spoiler";
+      note.textContent = problem.note ? "(" + problem.note + ")" : "";
+      note.onclick = () => note.classList.toggle("revealed");
 
-      paragraph.appendChild(link);
+      const stars = "*".repeat(problem.difficulty);
+      link.textContent = problem.title;
+
+      paragraph.append(link, " ", note, " " + stars);
       root.appendChild(paragraph);
     }
   }

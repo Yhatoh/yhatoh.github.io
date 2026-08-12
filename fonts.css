@@ -8,3 +8,10 @@
 .my-text {
     font-family: 'Times New Roman';
 }
+
+.spoiler:not(.revealed):not(:empty) {
+    background-color: #000;
+    color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
