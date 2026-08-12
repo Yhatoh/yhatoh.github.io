@@ -28,6 +28,12 @@ const TOPICS = [
         note: "ordered tree",
         difficulty: 1,
       },
+      {
+        url: "https://codeforces.com/problemset/problem/893/F",
+        title: "CODEFORCES - 893F",
+        note: "persistent segment tree",
+        difficulty: 4,
+      }
     ],
   },
   {
