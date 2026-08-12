@@ -15,7 +15,14 @@ const TOPICS = [
   },
   {
     title: "3. Data structures",
-    problems: [],
+    problems: [
+      {
+        url: "https://codeforces.com/problemset/problem/816/B",
+        title: "CODEFORCES - 816B",
+        note: "segment tree lazy",
+        difficulty: 1,
+      },
+    ],
   },
   {
     title: "4. Graphs",
@@ -36,6 +43,12 @@ const TOPICS = [
         title: "ATCODER - ARC226F",
         note: "DP + optimization",
         difficulty: 3,
+      },
+      {
+        url: "https://atcoder.jp/contests/abc466/tasks/abc466_e",
+        title: "ATCODER - ABC466E",
+        note: "2D",
+        difficulty: 1,
       },
     ],
   },
