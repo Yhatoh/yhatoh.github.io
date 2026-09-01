@@ -82,7 +82,7 @@ const TOPICS = [
     problems: [],
   },
   {
-    title: "8. Geometry",
+    title: "7. Geometry",
     problems: [
       {
         url: "https://codeforces.com/problemset/problem/1620/B",
@@ -93,7 +93,7 @@ const TOPICS = [
     ],
   },
   {
-    title: "7. String",
+    title: "8. String",
     problems: [
       {
         url: "https://codeforces.com/contest/763/problem/D",
