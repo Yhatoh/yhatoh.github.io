@@ -82,6 +82,17 @@ const TOPICS = [
     problems: [],
   },
   {
+    title: "8. Geometry",
+    problems: [
+      {
+        url: "https://codeforces.com/problemset/problem/1620/B",
+        title: "CODEFORCES - 1620B",
+        note: "producto cruz/shoelace formula",
+        difficulty: 1,
+      }
+    ],
+  },
+  {
     title: "7. String",
     problems: [
       {
